@@ -80,8 +80,8 @@ WSGI_APPLICATION = 'login.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-#DATABASE_URL = "postgres://username:password@hostname:port/dbname"
-DATABASE_URL = "postgresql://pax_user:Bhipowqs8QdQjmP12IFQk9rhtt11T8Gk@dpg-ct1jghd6l47c73bg16k0-a.oregon-postgres.render.com/pax"
+DATABASE_URL = "postgres://username:password@hostname:port/dbname"
+#DATABASE_URL = "postgresql://pax_user:Bhipowqs8QdQjmP12IFQk9rhtt11T8Gk@dpg-ct1jghd6l47c73bg16k0-a.oregon-postgres.render.com/pax"
 
 
 DATABASES = {
