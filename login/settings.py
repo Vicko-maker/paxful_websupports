@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'login.wsgi.application'
 
 DATABASE_URL = "postgres://username:password@hostname:port/dbname"
 #DATABASE_URL = "postgresql://pax_user:Bhipowqs8QdQjmP12IFQk9rhtt11T8Gk@dpg-ct1jghd6l47c73bg16k0-a.oregon-postgres.render.com/pax"
-
+DATABASES["default"] = dj_database_url.parse("postgresql://paxful_s647_user:HfP3lMGxwKdUwaqAOoGB41HCUizwVxky@dpg-ct2lv03qf0us739u7fp0-a.oregon-postgres.render.com/paxful_s647")
 
 DATABASES = {
     'default': dj_database_url.parse(
