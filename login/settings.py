@@ -89,7 +89,7 @@ DATABASES = {
         os.getenv('DATABASE_URL', 'sqlite:///db.sqlite3')  # Fallback to SQLite
     )
 }
-
+#postgresql://paxful_s647_user:HfP3lMGxwKdUwaqAOoGB41HCUizwVxky@dpg-ct2lv03qf0us739u7fp0-a.oregon-postgres.render.com/paxful_s647
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
